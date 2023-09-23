@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Калькулятор индекса массы</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <header></header>
+    <main>
+        <h1 class="name-app">Узнайте свой индекс массы тела</h1>
+        <article>
+            <p style="text-align: center; color: #807c7c8f; font-size: 14px; padding-bottom: 20px;">* рост указывайте через точку, например 1.86 м</p>
+        </article>
+        <span class="input-info">
+            Вес
+            <input id="input1" type="number" placeholder="---">
+            кг
+        </span>
+        <span class="input-info">
+            Рост
+            <input id="input2" type="number" placeholder="---">
+            м
+        </span>
+        <button id="btn">Рассчитать</button>
+        <div class="card_out">
+            <h2>Ваш ИМТ</h2>
+            <p id="result">---</p>
+            <!-- <p>нормальный вес</p> -->
+        </div>
+    </main>
+    <article class="weight">
+        <div class="col-1">
+            <div class="card">
+                <p class="dark-gold-text text-bold">< 18.5</p>
+                <p>недостаточный вес</p>
+                <div class="underline-1"></div>
+            </div>
+    
+            <div class="card">
+                <p class="red text-bold">30-35</p>
+                <p>1 степень ожирения</p>
+                <div class="underline-3"></div>
+            </div>
+        </div>
+        
+        <div class="col-2">
+            <div class="card">
+                <p class="green text-bold">18.5 - 25</p>
+                <p>нормальный вес</p>
+                <div class="underline-2"></div>
+            </div>
+    
+            <div class="card">
+                <p class="red text-bold">35 - 40</p>
+                <p>2 степень ожирения</p>
+                <div class="underline-3"></div>
+            </div>
+        </div>
+        
+        <div class="col-3">
+            <div class="card">
+                <p class="orange text-bold">25 - 30</p>
+                <p>лишний вес</p>
+                <div class="underline-4"></div>
+            </div>
+    
+            <div class="card">
+                <p class="red text-bold"> >40 </p>
+                <p>3 степень ожирения</p>
+                <div class="underline-3"></div>
+            </div>
+        </div>
+    </article>
+    <article>
+        <p style="text-align: center; font-size: 13px; color: #807c7c8f;">* Расчёт индекса массы тела определяет в каком соотношении находятся вес и рост, калькулятор подходит для взрослых мужчин и женщин.</p>
+    </article>
+</body>
+</html>

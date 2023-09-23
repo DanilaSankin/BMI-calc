@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+:root {
+    --red: rgb(224, 35, 35);
+    --green: rgb(8, 199, 8);
+    --gold: rgb(182, 161, 45);
+    --orange: rgb(233, 105, 20);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Селекторы */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    height: 100px;
+}
+
+main {
+    margin: auto;
+    text-align: center;
+}
+
+h2 {
+    padding-bottom: 10px;
+}
+
+p {
+    padding-bottom: 10px;
+}
+
+input {
+    outline: none;
+    border: none;
+    width: 40px;
+}
+
+span {
+    margin-top: 10px;
+}
+
+button {
+    outline: none;
+    border: none;
+    padding: 14px 20px;
+    border-radius: 20px;
+    background-color: #3acbdf;
+    color: white;
+    font-weight: bold;
+    font-family: inherit;
+}
+
+/* Классы */
+
+.name-app {
+    margin-bottom: 20px;
+}
+
+.input-info {
+    border: 1px solid #a1a0a0;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 40px 50px;
+}
+
+.card_out {
+    background-color: #b3f6ff;
+    border-radius: 10px;
+    max-width: 750px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding: 10px 10px;
+}
+
+.weight {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border: 1px solid #a1a0a0;
+    margin-bottom: 10px;
+}
+
+.col-1, .col-2, .col-3 {
+    display: inline-block;
+    text-align: center;
+    margin: 30px 40px;
+}
+
+.card {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+
+
+.underline-1 {
+    border: 2px solid var(--gold);
+}
+
+.underline-2 {
+    border: 2px solid var(--green);
+}
+
+.underline-3 {
+    border: 2px solid var(--red);
+}
+
+.underline-4 {
+    border: 2px solid var(--orange);
+}
+
+/* Цвета */
+.red {
+    color: var(--red);
+}
+
+.green {
+    color: var(--green);
+}
+
+.dark-gold-text {
+    color: var(--gold);
+}
+
+.orange {
+    color: var(--orange);
+}
+
+.text-bold {
+    font-weight: bold;
+}
